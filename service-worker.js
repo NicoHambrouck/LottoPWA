@@ -1,11 +1,11 @@
 const CACHE_NAME = "lotto-pwa-cache";
 
 const urlsToCache = [
-  "./",
-  "./index.html",
-  "./lotto.css",
-  "./lotto.js",
-  "./manifest.json"
+  "/",
+  "/index.html",
+  "/lotto.css",
+  "/lotto.js",
+  "/manifest.json"
 ];
 
 self.addEventListener("install", event => {
