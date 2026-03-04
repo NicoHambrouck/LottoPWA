@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     text-align: center;
     width: 100%;
@@ -18,4 +19,26 @@ body{
 
 ul{
     list-style: none;
+=======
+body{
+    text-align: center;
+    width: 100%;
+}
+
+#lottoGo{
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+#lottoGo:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+ul{
+    list-style: none;
+>>>>>>> df61a4ac0d1281770a4f1410135a71e9246fb138
 }
