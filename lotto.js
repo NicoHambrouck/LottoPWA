@@ -25,3 +25,11 @@ function LottoGo(){
     }
     result.innerHTML = "Vous avez obtenu " + count + " chiffres sur " + items.length;
 }
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js")
+      .then(() => console.log("Service Worker enregistré"))
+      .catch(error => console.log("Erreur SW :", error));
+  });
+}
