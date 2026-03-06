@@ -1,7 +1,7 @@
 {
   "name": "Ma PWA",
   "short_name": "PWA",
-  "start_url": "/",
+  "start_url": "/LottoPWA/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
